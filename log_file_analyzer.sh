@@ -23,4 +23,16 @@ else
   echo "Results saved to ${date}_log_file_analyzer.txt"
 fi
 
+# I thought it would be useful to ask the user if they want to open the file after saving
+# If the user chooses to open the file, it will be opened in nano editor (or other editor of choice)
+# If the user chooses not to open the file, the script will exit gracefully
+echo "Would you like to open the file? (y/n)"
+read open
+if [ $open == "y" ]; then
+  echo "Opening file"
+  nano "${date}_log_file_analyzer.txt"
+else 
+  echo "Exiting without opening the file."
+fi
+
 # End of script

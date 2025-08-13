@@ -3,7 +3,7 @@
 # This is a simple script that let's you check if a provided password
 # is strong or weak based on user input
 
-echo "Welcome to the Password Strenght Checker"
+echo "Welcome to the Password Strength Checker"
 sleep 1
 echo "A strong password must be at least 8 characters long"
 sleep 1

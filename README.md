@@ -10,4 +10,4 @@
 
 * **Password Strenght Checker** \
   A simple script that let's user provide a password and checks wheter it contains at least one: lowercase, uppercase, number and special character. It also runs the password through dictionary just in case.\
-  [*log_file_analyzer.sh*](https://github.com/kbob6980/Bash_scripts/blob/main/password_strenght_checker.sh)
+  [*password_strenght_checker.sh*](https://github.com/kbob6980/Bash_scripts/blob/main/password_strenght_checker.sh)
